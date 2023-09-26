@@ -8,7 +8,7 @@ const db=require('./config/mongoose');
 // Routes
 app.use('/',require('./routes/index'));
 
-//server run
+//for server
 app.listen(Port,function(err){
     if(err){
         console.log(err);
